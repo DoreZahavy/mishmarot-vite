@@ -1,0 +1,9 @@
+.main-header {
+    height: 100px;
+    background-color: darkgray;
+}
+
+.main-header li {
+    margin-inline-start: 1em;
+    cursor: pointer;
+}
