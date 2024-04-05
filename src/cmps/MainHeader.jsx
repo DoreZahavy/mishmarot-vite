@@ -9,9 +9,9 @@ export default function MainHeader() {
         <header className='main-header main-layout full'>
             <section className='nav-container flex space-between align-center'>
 
-                <a href="/">
+                <NavLink to="/">
                     <div className="logo">Mishmarot</div>
-                </a>
+                </NavLink>
                 <nav className="main-nav">
                     <ul className='clean-list flex align-center'>
                         <li><NavLink to='/editor' >Editor</NavLink></li>
